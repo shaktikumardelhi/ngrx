@@ -1,0 +1,30 @@
+<form (submit)="submit()" class="form" [formGroup]="form">
+
+  <div>
+    <label for="name-input">Name:</label>
+    <input id="name-input" type="text" formControlName="name">
+
+    <label for="surname-input">Surname:</label>
+    <input id="surname-input" type="text" formControlName="surname">
+
+    <label for="birthDate-input">BirthDate:</label>
+    <input id="birthDate-input" type="text" formControlName="birthDate">
+
+    <label for="phone-input">Phone:</label>
+    <input id="phone-input" type="text" formControlName="phone">
+
+    <label for="city-input">City:</label>
+    <input id="city-input" type="text" formControlName="city">
+
+    <label for="street-input">Street:</label>
+    <input id="street-input" type="text" formControlName="street">
+
+    <label for="number-input">Number:</label>
+    <input id="number-input" type="text" formControlName="number">
+
+    <button type="submit" class="btn">
+      Submit
+    </button>
+  </div>
+
+</form>

@@ -1,0 +1,48 @@
+<div class='msg' style="display: none">Name added</div>
+
+<input type="text" name="search" placeholder="Search..">
+
+<table *ngIf="names; else loading" class="table table-hover" id="names">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Surname</th>
+      <th>BirthDate</th>
+      <th>Phone</th>
+      <th>City</th>
+      <th>Street</th>
+      <th>Numbers</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="name-row" *ngFor="let c of names; trackBy: namesTrackByFn">
+      <td scope="row">{{c.id}}</td>
+      <td>{{c.name}}</td>
+      <td>{{c.surname}}</td>
+      <td>{{c.birthDate}}</td>
+      <td>{{c.phone}}</td>
+      <td>{{c.city}}</td>
+      <td>{{c.street}}</td>
+      <td>{{c.number}}</td>
+      <td>
+
+        <span class="float-right">
+          <button (click)="editName(c)">
+            EDIT
+          </button>
+
+          <button (click)="deleteName(c)">
+            DELETE
+          </button>
+        </span>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<ng-template #loading>
+  <span>loading names...</span>
+</ng-template>

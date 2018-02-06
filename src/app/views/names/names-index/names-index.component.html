@@ -1,0 +1,5 @@
+<app-name-list [names]="names$ | async"
+                  (onShow)="showName($event)"
+                  (onDelete)="deleteName($event)"
+                  (onEdit)="editName($event)"
+></app-name-list>

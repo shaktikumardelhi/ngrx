@@ -1,0 +1,76 @@
+{
+  "names": [
+    {
+      "id": 1,
+      "name": "name0",
+      "surname": "surname0",
+      "birthDate": "24-8-1981",
+      "phone": "634523125",
+      "city": "Wroclaw",
+      "street": "Mydlana",
+      "number": 1
+    },
+    {
+      "id": 2,
+      "name": "name1",
+      "surname": "surname1",
+      "birthDate": "28-9-1983",
+      "phone": "812312312",
+      "city": "Warsaw",
+      "street": "Domaniewska",
+      "number": 2
+    },
+    {
+      "id": 3,
+      "name": "name2121",
+      "surname": "surname2",
+      "birthDate": "01-6-1983",
+      "phone": "987654412",
+      "city": "Wroclaw",
+      "street": "Mydlana",
+      "number": 3
+    },
+    {
+      "id": 4,
+      "name": "name312",
+      "surname": "surname3",
+      "birthDate": "05-5-1978",
+      "phone": "812312312",
+      "city": "Wroclaw",
+      "street": "Himalajska",
+      "number": 4,
+      "email": ""
+    },
+    {
+      "id": 5,
+      "name": "ww11",
+      "email": "ww",
+      "phone": "ww",
+      "surname": "324",
+      "birthDate": "234",
+      "city": "4545",
+      "street": "435",
+      "number": "78"
+    },
+    {
+      "id": 11,
+      "name": "www",
+      "surname": "324324",
+      "birthDate": "324234",
+      "phone": "324324",
+      "city": "324234",
+      "street": "234",
+      "number": "234"
+    },
+    {
+      "id": 12,
+      "name": "33121",
+      "surname": "33",
+      "birthDate": "33",
+      "phone": "33",
+      "city": "33",
+      "street": "33",
+      "number": "3"
+    }
+  ]
+}
